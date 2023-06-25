@@ -1,4 +1,7 @@
 #this is repitative configation property in all microservice.
+spring:
+  application:
+    name: config-default
 eureka:
   client:
     register-with-eureka: true
