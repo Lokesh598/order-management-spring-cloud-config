@@ -1,4 +1,4 @@
-//this is repitative configation property in all microservice.
+#this is repitative configation property in all microservice.
 eureka:
   client:
     register-with-eureka: true
