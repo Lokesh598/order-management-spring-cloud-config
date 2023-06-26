@@ -8,8 +8,8 @@ eureka:
     fetch-registry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka  #eureka endpoint
-    healthcheck:
-      enabled: true
+    # healthcheck:
+    #   enabled: true
   instance:
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
