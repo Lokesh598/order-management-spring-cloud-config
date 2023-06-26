@@ -7,7 +7,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka  #eureka endpoint
+      defaultZone: http://localhost:8272/eureka  #eureka endpoint
     healthcheck:
       enabled: true
   instance:
