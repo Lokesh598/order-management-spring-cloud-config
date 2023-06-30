@@ -21,7 +21,7 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:50342/eureka #eureka default port = 8761
+      defaultZone: http://localhost:50790/eureka #eureka default port = 8761
     healthcheck:
       enabled: true
   instance:
