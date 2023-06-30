@@ -4,9 +4,6 @@
 #     name: config-default
 
 spring:
-  config:
-    import: configserver:http://localhost:8085
-
     # Configure the message broker connection (RabbitMQ or Kafka)
   cloud:
     config:
